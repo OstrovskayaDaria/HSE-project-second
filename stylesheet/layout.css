@@ -56,48 +56,47 @@ body {
 
   color: #fff;
 
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
 }
-/*
+
 .Fader nav ul li a:hover{
   text-decoration: underline;
 }
 
 .Fader h1 {
-  margin-bottom:70px;
-  padding-top: 350px;
+
+  padding-top: 45px;
 
   text-align: center;
 
   color: #fff;
 
-  font-size: 70px;
+  font-size: 45px;
   font-weight: 800;
 }
 
 .Fader p {
   text-align: center;
 
-  font-size: 55px;
+  font-size: 16px;
   font-weight: 800;
-  line-height:40px;
+  padding-top: 6px;
 }
 
 .Part2 p {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 15px;
+  padding-bottom: 13px;
   text-transform: uppercase;
 
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 500;
-  line-height:40px;
+  line-height:15px;
 }
 
 .btn-survey {
-  margin-right: auto;
-  margin-left: 45%;
-  padding: 8px 7px 7px 7px;
+  margin-left: 33%;
+  padding: 6px 5px 5px 5px;
 
   transition: all 400ms ease;
   text-decoration: none;
@@ -105,17 +104,17 @@ body {
   color: #fff;
   background-color: rgb(83, 208, 117);
 
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .btn-about-project:hover {
   color: rgb(83, 208, 117);
   background-color: #fff;
 }
-/* коммент/*
+
 main {
-  width: 120em;
+  width: 360px;
   height: 100%;
 
   color: #fff;
@@ -123,13 +122,13 @@ main {
 }
 
 .Block2 h1 {
-  padding-top: 40px;
+  padding-top: 10px;
 
   text-align: center;
 
   color: #fff;
 
-  font-size: 31px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 30px;
 }
@@ -137,77 +136,72 @@ main {
 .Block3 {
   display: block;
 
-  width: 120em;
-  padding: 20px 20px;
+  width: 360px;
 
   justify-content: space-between;
 }
 
 .Block3 img {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 48%;
+  margin-top: 5px;
+
+  margin-left: 45%;
+  width: 25px;
+  height: 33px;
 
   align-items: center;
 }
 
 .Block3 p {
-  margin-bottom: 20px;
+  margin-bottom: 3px;
 
   text-align: center;
 
-  font-size: 24px;
-  font-weight: 600;
-  line-height:30px;
+  font-size: 10px;
+
+  line-height:15px;
 }
 
-.Block4 {
-  padding-left: 60px;
+.Block4, .Block6 {
+  padding-left: 20px;
 }
 
-.Block4 h2 {
-  padding-top: 40px;
+.Block4 h2, .Block6 h2 {
+  padding-top: 17px;
 
   text-align: left;
 
   color: #fff;
 
-  font-size: 31px;
+  font-size: 12px;
   font-weight: 800;
-  line-height: 35px;
+  line-height: 15px;
 }
 
-.Block4 h3 {
-  font-size: 17px;
+.Block4 h3, .Block6 h3{
+  font-size: 10px;
   font-weight: 500;
 }
 
-.Block4 h3 a {
-  margin-bottom: 16px;
-
+.Block4 h3 a, .Block6 h3 a {
   color: rgb(83, 208, 117);
 }
 
-.Family, .Friends, .Couples, .Active {
-  margin-top: 16px;
+.Family, .Friends, .Couples, .Active, .France, .Iceland, .USA, .Italy  {
+  margin-top: 10px;
   position: relative;
-  margin-left: 60px;
-
-  width: 112em;
-  height: 69em;
-
-
-  margin-bottom: 63px;
+  margin-left: 20px;
+  margin-bottom: 27px;
+  width: 320px;
+  height: 197px;
 }
 
-.FaderFamily, .FaderFriends, .FaderCouples, .FaderActive {
-  padding-top: -16px;
+.FaderFamily, .FaderFriends, .FaderCouples, .FaderActive, .FaderFrance, .FaderIceland, .FaderUSA, .FaderItaly {
   position: absolute;
-  margin-left: -60px;
+  margin-left: 0px;
 
-  width: 118em;
-  height: 69em;
-  margin-bottom: 63px;
+  width: 320px;
+  height: 197px;
+  margin-bottom: 28px;
 
   color: #fff;
 }
@@ -228,38 +222,36 @@ main {
   background-color: rgba(23, 41, 55, 0.25);
 }
 
-.FaderFamily h2, .FaderFriends h2, .FaderCouples h2, .FaderActive h2 {
+.FaderFamily h2, .FaderFriends h2, .FaderCouples h2, .FaderActive h2, .FaderFrance h2, .FaderIceland h2, .FaderUSA h2, .FaderItaly h2 {
   text-align: center;
-  padding-top: 500px;
-  padding-bottom: 300px;
+  padding-top: 75px;
 }
 
-.FaderFamily h2 a, .FaderFriends h2 a, .FaderCouples h2 a, .FaderActive h2 a {
+.FaderFamily h2 a, .FaderFriends h2 a, .FaderCouples h2 a, .FaderActive h2 a, .FaderFrance h2 a, .FaderIceland h2 a, .FaderUSA h2 a, .FaderItaly h2 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
 
-  font-size: 70px;
+  font-size: 30px;
   font-weight: 500;
 }
 
-.FaderFamily h2 a:hover, .FaderFriends h2 a:hover, .FaderCouples h2 a:hover, .FaderActive h2 a:hover {
-
+.FaderFamily h2 a:hover, .FaderFriends h2 a:hover, .FaderCouples h2 a:hover, .FaderActive h2 a:hover, .FaderFrance h2 a:hover, .FaderIcelands h2 a:hover, .FaderUSA h2 a:hover, .FaderItaly h2 a:hover {
   background-color: rgba(27, 19, 1, 0.75);
   text-decoration: none;
 
   color: #fff;
 
-  font-size: 70px;
+  font-size: 35px;
   font-weight: 800;
 }
 
 .FaderFamily p, .FaderFriends p, .FaderCouples p, .FaderActive p {
-  font-size: 26px;
+  font-size: 10px;
   font-weight: 500;
-  padding-left: 60px;
-  padding-top: 235px;
+  padding-top: 95px;
+
 }
 
 .Family {
@@ -283,18 +275,20 @@ main {
 }
 
 .Block5 {
+  margin-top: 35px;
   position: relative;
   background: url(img/MachuPicchu.jpg);
   background-size: cover;
-  width: 120em;
-  height: 53em;
+  width: 390px;
+  height: 200px;
 }
 
 .Block5Fader {
+
   position: absolute;
 
-  width: 120em;
-  height: 53em;
+  width: 390px;
+  height: 200px;
 
   color: #fff;
   background-color: rgba(19, 18, 14, 0.45);
@@ -302,64 +296,37 @@ main {
 
 .Block5 h2 {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 6px;
   text-transform: uppercase;
 
   color: #fff;
 
-  font-size: 35px;
+  font-size: 12px;
   font-weight: 800;
-  line-height: 30px;
-}
-
-.Block5.2 {
-  display: block;
-
-  width: 119em;
-  padding: 20px 20px;
-
-  justify-content: space-between;
 }
 
 .Block5 img {
-  margin-top: 45px;
-  margin-bottom: 23px;
-  margin-left: 48%;
+  margin-top: 5px;
+
+  margin-left: 45%;
+  width: 25px;
+  height: 30px;
 
   align-items: center;
 }
 
 .Block5 p {
-  margin-bottom: 20px;
+  margin-bottom: 3px;
 
   text-align: center;
 
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 20px;
+  font-size: 10px;
+
+  line-height:15px;
 }
 
 .Block5 p p {
   font-weight: 800;
-}
-
-.Block6 h2 {
-  padding-top: 40px;
-  padding-left: 60px;
-
-  text-align: left;
-
-  color: #fff;
-
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 30px;
-}
-
-.Block6 h3 a {
-  margin-bottom: 16px;
-  padding-left: 60px;
-  color: rgb(83, 208, 117);
 }
 
 .France {
@@ -383,26 +350,9 @@ main {
 }
 
 .France, .Iceland, .USA, .Italy {
-  margin-top: 16px;
-  position: relative;
-  margin-left: 60px;
-
-  width: 112em;
-  height: 69em;
-
-  margin-bottom: 130px;
+  margin-bottom: 37px;
 }
 
-.FaderFrance, .FaderIceland, .FaderUSA, .FaderItaly {
-  padding-top: -16px;
-  position: absolute;
-
-  width: 112em;
-  height: 69em;
-  margin-bottom: 50px;
-
-  color: #fff;
-}
 .FaderFrance {
  background-color: rgba(60, 59, 50, 0.25);
 }
@@ -419,48 +369,23 @@ main {
  background-color: rgba(19, 36, 47, 0.39);
 }
 
-.FaderFrance h2, .FaderIceland h2, .FaderUSA h2, .FaderItaly h2 {
- text-align: center;
- padding-top: 500px;
- padding-bottom: 545px;
-
-
-}
-
-.FaderFrance h2 a, .FaderIceland h2 a, .FaderUSA h2 a, .FaderItaly h2 a {
- text-align: center;
- text-decoration: none;
- text-transform: uppercase;
- color: #fff;
-
- font-size: 70px;
- font-weight: 800;
-}
-
-.FaderFrance h2 a:hover, .FaderIcelands h2 a:hover, .FaderUSA h2 a:hover, .FaderItaly h2 a:hover {
-
-  background-color: rgba(27, 19, 1, 0.75);
-  text-decoration: none;
-
-  color: #fff;
-
-  font-size: 70px;
+.FaderFrance p, .FaderIceland p, .FaderUSA p, .FaderItaly p {
+  font-size: 10px;
   font-weight: 800;
-}
-
-.FaderFrance p, .FaderIceland p, .FaderUSA p, .FaderItaly p, .France h3, .Iceland h3, .USA h3, .Italy h3 {
-  font-size: 24px;
-  font-weight: 800;
-  padding-left: 60px;
-
-
+  padding-top: 65px;
 }
 
 .France1 p, .Iceland1 p, .USA1 p, .Italy1 p {
-  font-size: 26px;
+  font-size: 10px;
   font-weight: 500;
-  padding-left: 60px;
-  margin-bottom: 2px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.France h3, .Iceland h3, .USA h3, .Italy h3 {
+  font-size: 10px;
+  font-weight: 800;
+  padding-top: 0px;
 }
 
 .France h3, .Iceland h3, .USA h3, .Italy h3 {
@@ -468,16 +393,16 @@ main {
 }
 
 .Observe h3 {
- margin-top: 26px;
- margin-bottom: 100px;
+ margin-top: 16px;
+ margin-bottom: 20px;
 }
 
 .Observe h3 a {
  text-decoration: none;
- margin-top: 26px;
- padding-left: 60px;
+ margin-top: 16px;
+ padding-left: 20px;
  color: rgb(83, 208, 117);
- font-size: 24px;
+ font-size: 12px;
  font-weight: 700;
 }
 
@@ -486,27 +411,26 @@ main {
 }
 
 .Block7 h2 {
- padding-top: 40px;
-
+ padding-top: 10px;
 
  text-align: center;
 
  color: #fff;
 
- font-size: 35px;
+ font-size: 12px;
  font-weight: 500;
- line-height: 30px;
- margin-bottom: 70px;
+ line-height: 15px;
+ margin-bottom: 20px;
 }
 
 .Block7Img2 img, .Block7Img3 img {
- width: 28em;
- height: 28em;
+ width: 100px;
+ height: 100px;
 }
 
 .Block7Img2 img, .Block7Img3 img {
- width: 28em;
- height: 450px;
+ width: 100px;
+ height: 100px;
 }
 
 a.rollover:hover img {
@@ -516,11 +440,16 @@ a.rollover:hover img {
 }
 
 .Block7Img2, .Block7Img3 {
- margin-left: 270px;
+ margin-left: 22px;
+}
+
+.footer img {
+ width: 15px;
+ height: 15px;
 }
 
 .footer {
- margin-left: 1740px;
- margin-top: 40px;
- margin-bottom: 50px;
+ margin-left: 270px;
+ margin-top: 15px;
+ margin-bottom: 15px;
 }
