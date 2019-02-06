@@ -108,9 +108,18 @@ body {
   font-weight: 800;
 }
 
-.btn-about-project:hover {
+.btn-survey a:hover {
+  margin-left: 33%;
+  padding: 6px 5px 5px 5px;
+
+  transition: all 400ms ease;
+  text-decoration: none;
+
   color: rgb(83, 208, 117);
   background-color: #fff;
+
+  font-size: 12px;
+  font-weight: 800;
 }
 
 main {
@@ -237,13 +246,13 @@ main {
   font-weight: 500;
 }
 
-.FaderFamily h2 a:hover, .FaderFriends h2 a:hover, .FaderCouples h2 a:hover, .FaderActive h2 a:hover, .FaderFrance h2 a:hover, .FaderIcelands h2 a:hover, .FaderUSA h2 a:hover, .FaderItaly h2 a:hover {
-  background-color: rgba(27, 19, 1, 0.75);
+.FaderFamily h2 a:hover, .FaderFriends h2 a:hover, .FaderCouples h2 a:hover, .FaderActive h2 a:hover, .FaderFrance h2 a:hover, .FaderIceland h2 a:hover, .FaderUSA h2 a:hover, .FaderItaly h2 a:hover {
+  background-color: rgba(27, 19, 1, 0.35);
   text-decoration: none;
 
   color: #fff;
 
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 800;
 }
 
