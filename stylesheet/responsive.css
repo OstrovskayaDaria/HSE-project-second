@@ -276,6 +276,7 @@
   }
 
   .MainIndividualTrip, .MainPopularDestinations {
+    position: relative;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -301,7 +302,6 @@
 
 
   .FaderFamily, .FaderFriends, .FaderCouples, .FaderActive, .FaderFrance, .FaderIceland, .FaderUSA, .FaderItaly {
-    height: 31vw;
     margin-right: 10px;
     width: 100%;
     height: 360px;
