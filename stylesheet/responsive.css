@@ -1,1 +1,390 @@
+@media (min-width: 768px) {
+  .HeaderNavButton {
+    display: none;
+  }
 
+  .HeaderBackground {
+    max-height: 450px;
+  }
+
+  .HeaderLogo img {
+    width: 100px;
+    margin: 8px 8px;
+  }
+
+  .HeaderFader {
+    max-height: 450px;
+  }
+
+  .HeaderNavButton {
+    display: none;
+  }
+
+  .li-hide {
+    display: inline;
+  }
+
+  .HeaderFader h1 {
+    padding-top: 150px;
+    font-size: 70px;
+  }
+
+  .HeaderFader p {
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 30px;
+  }
+
+  .HeaderMoreInfo p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .HeaderButtonSurvey {
+    padding-top: 15px;
+  }
+
+  .btn-survey{
+    font-size: 18px;
+  }
+
+  .btn-survey a:hover {
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .MainHowItWorks h1 {
+    padding-top: 25px;
+    font-size: 35px;
+    line-height: 30px;
+  }
+
+  .MainHowItWorks img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 45px;
+    height: 60px;
+  }
+
+  .MainHowItWorks p {
+    margin-bottom: 30px;
+    font-size: 25px;
+
+    line-height:15px;
+  }
+
+  .MainIndividualTrip, .MainPopularDestinations {
+    padding-left: 10px;
+  }
+
+  .MainIndividualTrip h1, .MainPopularDestinations h1 {
+    padding-top: 47px;
+
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .MainIndividualTrip h2, .MainPopularDestinations h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .MainIndividualTrip h2 a, .MainPopularDestinations h2 a {
+    color: rgb(83, 208, 117);
+  }
+
+  .Family, .Friends, .Couples, .Active, .France, .Iceland, .USA, .Italy  {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .FaderFamily, .FaderFriends, .FaderCouples, .FaderActive, .FaderFrance, .FaderIceland, .FaderUSA, .FaderItaly {
+    margin-right: 20px;
+  }
+
+  .FaderFamily h2 a, .FaderFriends h2 a, .FaderCouples h2 a, .FaderActive h2 a, .FaderFrance h2 a, .FaderIceland h2 a, .FaderUSA h2 a, .FaderItaly h2 a {
+    font-size: 75px;
+    color: #fff;
+    line-height: 75px;
+  }
+
+  .FaderFamily h2 a:hover, .FaderFriends h2 a:hover, .FaderCouples h2 a:hover, .FaderActive h2 a:hover, .FaderFrance h2 a:hover, .FaderIceland h2 a:hover, .FaderUSA h2 a:hover, .FaderItaly h2 a:hover {
+    font-size: 75px;
+  }
+
+  .MainIndividualTripExtraInfo {
+    font-size: 20px;
+  }
+
+  .MainWeWillHelp {
+    margin-top: 50px;
+    max-height: 550px;
+  }
+
+  .MainWeWillHelpFader {
+    max-height: 550px;
+  }
+
+  .MainWeWillHelp h2 {
+    padding-top: 30px;
+    font-size: 35px;
+  }
+
+  .MainWeWillHelp img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 35px;
+    height: 45px;
+  }
+
+  .MainWeWillHelp p {
+    font-size: 25px;
+    line-height:15px;
+    }
+
+  .MainPopularDestinationsInfo p{
+    font-size: 25px;
+  }
+
+  .MainPopularDestinationsInfo h2 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .stars {
+    font-size: 25px;
+  }
+
+  .stars img {
+    width: 80px;
+  }
+
+  .MainMoreOptions img {
+    margin-top: 32px;
+    margin-left: 5px;
+    width: 40px;
+  }
+
+  .MainMoreOptions h2 a {
+   margin-top: 26px;
+   font-size: 25px;
+   font-weight: 500;
+  }
+
+  .MainMoreOptions h2  {
+   margin-top: 26px;
+   font-size: 25px;
+  }
+
+  .MainFindOutMore h2 {
+   padding-top: 50px;
+   font-size: 30px;
+   line-height: 30px;
+  }
+
+  .MainFindOutMoreImg {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .footer img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .HeaderNavButton {
+    display: none;
+  }
+
+  .HeaderBackground {
+    max-height: 640px;
+  }
+
+  .HeaderLogo img {
+    width: 120px;
+  }
+
+  .HeaderFader {
+    max-height: 640px;
+  }
+
+  .HeaderFader h1 {
+    padding-top: 200px;
+    font-size: 100px;
+  }
+
+  .HeaderFader p {
+    padding-top: 40px;
+  }
+
+  .HeaderMoreInfo p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .HeaderButtonSurvey {
+    padding-top: 55px;
+  }
+
+  .btn-survey{
+    font-size: 21px;
+  }
+
+  .btn-survey a:hover {
+    font-size: 21px;
+  }
+
+/*
+  .MainHowItWorks h1 {
+    position: relative;
+    margin-bottom: 40px;
+    padding-top: 55px;
+    font-size: 45px;
+    line-height: 30px;
+  }
+
+  .MainHowItWorks img {
+    position: absolute;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    width: 55px;
+    height: 70px;
+  }
+
+  .MainHowItWorks p {
+    margin-bottom: 50px;
+    font-size: 30px;
+
+    line-height:15px;
+  }
+
+  .MainIndividualTrip, .MainPopularDestinations {
+    padding-left: 10px;
+  }
+
+  .MainIndividualTrip h1, .MainPopularDestinations h1 {
+    padding-top: 47px;
+
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .MainIndividualTrip h2, .MainPopularDestinations h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .MainIndividualTrip h2 a, .MainPopularDestinations h2 a {
+    color: rgb(83, 208, 117);
+  }
+
+  .Family, .Friends, .Couples, .Active, .France, .Iceland, .USA, .Italy  {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .FaderFamily, .FaderFriends, .FaderCouples, .FaderActive, .FaderFrance, .FaderIceland, .FaderUSA, .FaderItaly {
+    margin-right: 20px;
+  }
+
+  .FaderFamily h2 a, .FaderFriends h2 a, .FaderCouples h2 a, .FaderActive h2 a, .FaderFrance h2 a, .FaderIceland h2 a, .FaderUSA h2 a, .FaderItaly h2 a {
+    font-size: 75px;
+    color: #fff;
+    line-height: 75px;
+  }
+
+  .FaderFamily h2 a:hover, .FaderFriends h2 a:hover, .FaderCouples h2 a:hover, .FaderActive h2 a:hover, .FaderFrance h2 a:hover, .FaderIceland h2 a:hover, .FaderUSA h2 a:hover, .FaderItaly h2 a:hover {
+    font-size: 75px;
+  }
+
+  .MainIndividualTripExtraInfo {
+    font-size: 20px;
+  }
+
+  .MainWeWillHelp {
+    margin-top: 50px;
+    max-height: 550px;
+  }
+
+  .MainWeWillHelpFader {
+    max-height: 550px;
+  }
+
+  .MainWeWillHelp h2 {
+    padding-top: 30px;
+    font-size: 35px;
+  }
+
+  .MainWeWillHelp img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 35px;
+    height: 45px;
+  }
+
+  .MainWeWillHelp p {
+    font-size: 25px;
+    line-height:15px;
+    }
+
+  .MainPopularDestinationsInfo p{
+    font-size: 25px;
+  }
+
+  .MainPopularDestinationsInfo h2 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .stars {
+    font-size: 25px;
+  }
+
+  .stars img {
+    width: 80px;
+  }
+
+  .MainMoreOptions img {
+    margin-top: 32px;
+    margin-left: 5px;
+    width: 40px;
+  }
+
+  .MainMoreOptions h2 a {
+   margin-top: 26px;
+   font-size: 25px;
+   font-weight: 500;
+  }
+
+  .MainMoreOptions h2  {
+   margin-top: 26px;
+   font-size: 25px;
+  }
+
+  .MainFindOutMore h2 {
+   padding-top: 50px;
+   font-size: 30px;
+   line-height: 30px;
+  }
+
+  .MainFindOutMoreImg {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .footer img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+}

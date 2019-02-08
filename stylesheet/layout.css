@@ -6,10 +6,10 @@ body * {
     box-sizing: border-box;
 }
 
-.Background {
+.HeaderBackground {
   position: relative;
   background-image: url('./img/Cover.png');
-  min-width: 360px;
+  width: 100%;
   height: 89vw;
   max-height: 350px;
   background-size: cover;
@@ -22,36 +22,32 @@ body * {
   padding: 0 30px;
 }
 
-.Fader {
+.HeaderFader {
   position: absolute;
-
   width: 100%;
   height: 89vw;
   max-height: 350px;
-
   color: #fff;
   background-color: rgba(17, 11, 19, 0.45);
 }
 
-.Background .nav-button {
+.HeaderNavButton {
   background-image: url('./img/menu_burger.svg');
   margin-top: 5px;
-  margin-left: 87%;
+  margin-left: 90%;
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
   margin-right: 10px;
-
 }
 
-.Logo img {
+.HeaderLogo img {
+  position: relative;
+  display: flex;
   float: left;
-  width: 70px;
-  height: auto;
-
-  padding: 5px 5px;
+  width: 80px;
+  margin: 8px 8px;
 }
-
 
 .li-hide {
   display: none;
@@ -62,179 +58,154 @@ body * {
   margin: 0 0 0 auto;
 }
 
-.Fader nav ul  {
+.HeaderFader nav ul  {
   display: flex;
   padding-top: 5px;
   padding-left: 240px;
-
   justify-content: space-between;
   align-items: center;
+  margin-right: 5px;
 }
 
-.Fader nav ul li a {
+.HeaderFader nav ul li a {
   display: block;
-
   text-decoration: none;
-
   color: #fff;
-
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
-.Fader nav ul li a:hover{
+.HeaderFader nav ul li a:hover{
   text-decoration: underline;
 }
 
-.Fader h1 {
-
+.HeaderFader h1 {
   padding-top: 45px;
-
   text-align: center;
-
   color: #fff;
-
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 800;
 }
 
-.Fader p {
+.HeaderFader p {
   text-align: center;
-
   font-size: 16px;
   font-weight: 800;
   padding-top: 6px;
 }
 
-
-.Part2 p {
+.HeaderMoreInfo p {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 13px;
   text-transform: uppercase;
-
   font-size: 12px;
   font-weight: 500;
   line-height:15px;
 }
 
-.btn-survey {
-  margin-left: 33%;
-  padding: 6px 5px 5px 5px;
+.HeaderButtonSurvey {
+  text-align: center;
+}
 
+.btn-survey {
+  padding: 6px 5px 5px 5px;
   transition: all 400ms ease;
   text-decoration: none;
-
   color: #fff;
   background-color: rgb(83, 208, 117);
-
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 }
 
 .btn-survey a:hover {
-  margin-left: 33%;
   padding: 6px 5px 5px 5px;
-
   transition: all 400ms ease;
   text-decoration: none;
-
   color: rgb(83, 208, 117);
   background-color: #fff;
-
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 }
 
 main {
-  min-width: 360px;
+  width: 100%;
   height: 100%;
-
   color: #fff;
   background-color: rgb(20, 20, 20);
 }
 
-.Block2 h1 {
+.MainHowItWorks h1 {
   padding-top: 10px;
-
   text-align: center;
-
   color: #fff;
-
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 30px;
 }
 
-.Block3 {
-  display: block;
-
-  min-width: 320px;
-
-  justify-content: space-between;
+.MainHowItWorksImg, .MainWeWillHelpImg {
+  text-align: center;
 }
 
-.Block3 img {
-  margin-top: 5px;
-
-  margin-left: 48%;
-  width: 25px;
-  height: 33px;
+.MainHowItWorks img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 35px;
+  height: 50px;
 }
 
-.Block3 p {
-  margin-bottom: 3px;
+.MainHowItWorks p {
+  margin-bottom: 10px;
 
   text-align: center;
 
-  font-size: 10px;
+  font-size: 13px;
 
   line-height:15px;
 }
 
-.Block4, .Block6 {
-  padding-left: 20px;
+.MainIndividualTrip, .MainPopularDestinations {
+  padding-left: 10px;
 }
 
-.Block4 h2, .Block6 h2 {
+.MainIndividualTrip h1, .MainPopularDestinations h1 {
   padding-top: 17px;
+  margin-right: 5px;
 
   text-align: left;
 
   color: #fff;
 
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 800;
   line-height: 15px;
 }
 
-.Block4 h3, .Block6 h3{
-  font-size: 10px;
+.MainIndividualTrip h2, .MainPopularDestinations h2{
+  font-size: 13px;
   font-weight: 500;
 }
 
-.Block4 h3 a, .Block6 h3 a {
+.MainIndividualTrip h2 a, .MainPopularDestinations h2 a {
   color: rgb(83, 208, 117);
 }
 
 .Family, .Friends, .Couples, .Active, .France, .Iceland, .USA, .Italy  {
+  display: flex;
+  align-items: center;
   margin-top: 10px;
   position: relative;
-  margin-left: 20px;
-  margin-bottom: 27px;
-  width: 320px;
+  margin-right: 10px;
   height: 62vw;
-  
 }
 
 .FaderFamily, .FaderFriends, .FaderCouples, .FaderActive, .FaderFrance, .FaderIceland, .FaderUSA, .FaderItaly {
   position: absolute;
-  margin-left: 0px;
-
-  width: 320px;
+  width: 100%;
   height: 62vw;
-  margin-bottom: 28px;
-
+  margin-right: 10px;
   color: #fff;
 }
 
@@ -256,7 +227,8 @@ main {
 
 .FaderFamily h2, .FaderFriends h2, .FaderCouples h2, .FaderActive h2, .FaderFrance h2, .FaderIceland h2, .FaderUSA h2, .FaderItaly h2 {
   text-align: center;
-  padding-top: 75px;
+  padding-top: 30%;
+  line-height: 27px;
 }
 
 .FaderFamily h2 a, .FaderFriends h2 a, .FaderCouples h2 a, .FaderActive h2 a, .FaderFrance h2 a, .FaderIceland h2 a, .FaderUSA h2 a, .FaderItaly h2 a {
@@ -264,26 +236,21 @@ main {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 500;
 }
 
 .FaderFamily h2 a:hover, .FaderFriends h2 a:hover, .FaderCouples h2 a:hover, .FaderActive h2 a:hover, .FaderFrance h2 a:hover, .FaderIceland h2 a:hover, .FaderUSA h2 a:hover, .FaderItaly h2 a:hover {
-  background-color: rgba(27, 19, 1, 0.35);
   text-decoration: none;
-
   color: #fff;
-
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 800;
 }
 
-.FaderFamily p, .FaderFriends p, .FaderCouples p, .FaderActive p {
-  font-size: 10px;
+.MainIndividualTripExtraInfo {
+  font-size: 13px;
   font-weight: 500;
-  padding-top: 95px;
-
+  margin-top: 3px;
 }
 
 .Family {
@@ -306,14 +273,14 @@ main {
   background-size: cover;
 }
 
-.Block5 {
-  margin-top: 35px;
+.MainWeWillHelp {
+  margin-top: 20px;
   position: relative;
   background: url(img/MachuPicchu.jpg);
   background-size: cover;
-  min-width: 320px;
-  height: 65vw;
-  max-height: 300px;
+  width: 100%;
+  height: 67vw;
+  max-height: 220px;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -322,47 +289,54 @@ main {
   color: white;
 }
 
-.Block5Fader {
+.MainWeWillHelpFader {
   position: absolute;
-
   width: 100%;
-  height: 65vw;
-  max-height: 300px;
+  height: 67vw;
+  max-height: 220px;
   color: #fff;
   background-color: rgba(19, 18, 14, 0.45);
 }
 
-.Block5 h2 {
+.MainWeWillHelp h2 {
   text-align: center;
   padding-top: 10px;
   text-transform: uppercase;
-
   color: #fff;
-
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 800;
 }
 
-.Block5 img {
+.MainWeWillHelp img {
   margin-top: 7px;
-
-  margin-left: 47%;
   width: 25px;
   height: 30px;
 }
 
-.Block5 p {
+.MainWeWillHelp p {
   margin-bottom: 3px;
 
   text-align: center;
 
-  font-size: 10px;
+  font-size: 13px;
 
   line-height:15px;
 }
 
-.Block5 p p {
+.MainWeWillHelp p p {
   font-weight: 800;
+}
+
+.MainPopularDestinationsInfo p{
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 1px
+}
+
+.MainPopularDestinationsInfo h2 {
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 3px;
 }
 
 .France {
@@ -385,10 +359,6 @@ main {
   background-size: cover;
 }
 
-.France, .Iceland, .USA, .Italy {
-  margin-bottom: 37px;
-}
-
 .FaderFrance {
  background-color: rgba(60, 59, 50, 0.25);
 }
@@ -405,68 +375,56 @@ main {
  background-color: rgba(19, 36, 47, 0.39);
 }
 
-.FaderFrance p, .FaderIceland p, .FaderUSA p, .FaderItaly p {
-  font-size: 10px;
+.stars {
+  font-size: 13px;
   font-weight: 800;
-  padding-top: 65px;
-}
-
-.France1 p, .Iceland1 p, .USA1 p, .Italy1 p {
-  font-size: 10px;
-  font-weight: 500;
-  padding-left: 0px;
-  padding-top: 0px;
-}
-
-.France h3, .Iceland h3, .USA h3, .Italy h3 {
-  font-size: 10px;
-  font-weight: 800;
-  padding-top: 0px;
-}
-
-.France h3, .Iceland h3, .USA h3, .Italy h3 {
+  padding-top: 1px;
+  display: flex;
   color: rgb(83, 208, 117);
 }
 
-.Observe h3 {
- margin-top: 16px;
- margin-bottom: 20px;
+.stars h3, .MainMoreOptions h2 {
+  margin-right: 3px;
 }
 
-.Observe h3 a {
+
+.MainMoreOptions {
+  color: rgb(83, 208, 117);
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.MainMoreOptions h2 a {
  text-decoration: none;
  margin-top: 16px;
- padding-left: 20px;
  color: rgb(83, 208, 117);
- font-size: 12px;
- font-weight: 700;
+ font-size: 13px;
+ font-weight: 800;
 }
 
-.Block7 {
- background-color: rgb(20, 20, 20);
-}
-
-.Block7 h2 {
+.MainFindOutMore h2 {
  padding-top: 10px;
-
  text-align: center;
-
  color: #fff;
-
- font-size: 12px;
- font-weight: 500;
- line-height: 15px;
- margin-bottom: 20px;
+ font-size: 13px;
+ font-weight: 800;
+ line-height: 12px;
 }
 
-.Block7Img2 img, .Block7Img3 img {
- width: 100px;
- height: 100px;
+.MainFindOutMoreImg {
+  margin-top: 10px;
+  position: relative;
 }
 
-.Block7Img2 img, .Block7Img3 img {
- width: 100px;
- height: 100px;
+.MainFindOutMoreImg1 img, .MainFindOutMoreImg2 img {
+  display: inline-flex;
+  width: 30%;
+  height: 30%;
+}
+
+.MainFindOutMoreImg1, .MainFindOutMoreImg2{
+  text-align: center;
 }
 
 a.rollover:hover img {
@@ -475,17 +433,21 @@ a.rollover:hover img {
  cursor: pointer;
 }
 
-.Block7Img2, .Block7Img3 {
- margin-left: 22px;
+footer {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgb(20, 20, 20);
 }
 
 .footer img {
- width: 15px;
- height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
 }
 
 .footer {
- margin-left: 270px;
- margin-top: 15px;
- margin-bottom: 15px;
+  text-align: right;
 }
